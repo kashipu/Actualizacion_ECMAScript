@@ -1,0 +1,19 @@
+{
+  "name": "ecmascript",
+  "version": "1.0.0",
+  "description": "Actualizar conceptos de ECMAScript 6 y sus nuevas actualizaciones",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kashipu/Actualizacion_ECMAScript.git"
+  },
+  "author": "William Moreno (Kashipu graficodev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kashipu/Actualizacion_ECMAScript/issues"
+  },
+  "homepage": "https://github.com/kashipu/Actualizacion_ECMAScript#readme"
+}
