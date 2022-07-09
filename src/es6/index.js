@@ -28,3 +28,30 @@ function newFunction2(name = "Nombre", age = 10, country = "CO") {
 
 console.log(newFunction2())
 console.log(newFunction2("Hola", 35, "MX"))
+
+
+// Antes de ecmascript para separa una frase
+let lorem = "Esta es una frase epica \n" +  
+"otra frase";
+
+// Con los templates literals no es necesario concatenar
+let lorem2 = `Esto es un texto 
+Con salto de linea
+`
+
+// Desctructuración  de elementos
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+let person = {
+    "name": "William",
+    "age": 29,
+    "country": "CO"
+}
+
+let {name, age, country} = person
+
+console.log(name, age, country)
+
+// Acceder a los datos  de la  forma típica
+console.log (person.age)
+
+// Destructuring
