@@ -47,11 +47,10 @@ let person = {
     "country": "CO"
 }
 
-let {name, age, country} = person
-
-console.log(name, age, country)
-
 // Acceder a los datos  de la  forma típica
 console.log (person.age)
 
 // Destructuring
+let {name, age, country} = person
+
+console.log(name, age, country)
